@@ -5,6 +5,6 @@ const router = Router();
 const PostServices = require("../services/posts.service");
 const postsServices = new PostServices();
 
-router.get("/home");
+router.get("/home", postsServices.renderHome);
 
 module.exports = router;

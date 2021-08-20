@@ -1,4 +1,5 @@
 const expres = require("express");
+const hbs = require("express-handlebars");
 
 const path = require("path");
 const createApp = () => {
@@ -22,6 +23,11 @@ const createApp = () => {
 
   // routes
   app.use("/", require("./posts/routes/posts.routes"));
+
+  // redirect
+  app.get("/", (req, res) => {
+    res.redirect("/home");
+  });
 
   return app;
 };
