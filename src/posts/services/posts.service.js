@@ -2,8 +2,9 @@
 const Post = require("../models/Post");
 
 class PostServices {
-  renderHome(req, res) {
-    res.render("posts/home");
+  async renderHome(req, res) {
+    const posts = await Post.find({}).sort({ createdAt: "desc" }).lean()
+    res.render("posts/home", { posts });
   }
 }
 
