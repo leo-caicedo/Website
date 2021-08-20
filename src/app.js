@@ -1,9 +1,9 @@
-const expres = require("express");
+const express = require("express");
 const hbs = require("express-handlebars");
 
 const path = require("path");
 const createApp = () => {
-  const app = expres();
+  const app = express();
 
   // settings
   app.set("views", path.join(__dirname, "views"));
