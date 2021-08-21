@@ -15,26 +15,24 @@ header {
 }
  header nav {
      height: 100px;
-     background: #a50029;
+     background: #a8002a;
      box-shadow: black;
- }
- nav .brand-logo {
-     height: 100px;
-     left: 1%;
- }
-
- header nav ul {
-     height: 100px;
- }
- header ul a {
-    color: white;
  }
 
  h1 {
      color: white;
  }
  
+ h2 {
+     color: white;
+ }
+
+ .home-p {
+     color: white;
+     font-size: 20px;
+ }
+ 
  footer.page-footer {
-    background: #ee104760;
+    background: #a8062f;
     bottom: 0;
 }
