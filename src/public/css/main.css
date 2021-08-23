@@ -4,35 +4,62 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background: #151515;
+    background: #01012b;
 }
+header {
+    height: 150px;
+ }
+ header nav {
+     height: 100px;
+     background: #005678;
+     box-shadow: black;
+    }
+    header nav .brand-logo {
+     color: #d1f7ff;
+    }
+
   main {
     flex: 1 0 auto;
   }
+.card-title{
+    color: #d1f7ff;
+  }
+.card-content {
+    background: #de004e;
+}
+.card .card-reveal {
+    background: #07b68a;
+}
+.card-reveal p{
+    color: #d1f7ff;
+    font-size: 17px;
+}
+.card-reveal a {
+    color: #de004e;
+}
       
-header {
-    height: 100px;
+
+h3 {
+    color: #d1f7ff;
 }
- header nav {
-     height: 100px;
-     background: #a8002a;
-     box-shadow: black;
- }
+div h2 {
+    margin-top: 100px;
+    color: #de004e;
+}
+.home-p {
+    color: #d1f7ff;
+    font-size: 25px;
+}
 
- h1 {
-     color: white;
- }
- 
- h2 {
-     color: white;
- }
-
- .home-p {
-     color: white;
-     font-size: 20px;
- }
- 
- footer.page-footer {
-    background: #a8062f;
+footer.page-footer {
+    margin-top: 100px;
+    background: #066f99;
     bottom: 0;
-}
+ }
+ footer div h3{
+     color: #d1f7ff;
+     font-size: 30px;
+ }
+ .text-lighten-4 {
+     color: #d1f7ff;
+ }

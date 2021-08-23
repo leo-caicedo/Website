@@ -1,84 +1,31 @@
 <main class="container">
     <div>
-        <h2 class="center">Hola 🧑‍💻</h2>
-        <p class="home-p center">Me gusta aprender sobre tecnolog&iacute;as backend. <br />
+        <h3>Hola 🧑‍💻</h3>
+        <p class="home-p">Me enfoco en desarrollo web, principalmente en tecnolog&iacute;as Backend. <br />
             Algunos lenguajes de programaci&oacute;n que utilizo como herramientas son Nodejs y Python.</p>
     </div>
 
         <section>
             <div class="row">
-                <h2 class="center">Algunos proyectos</h2>
-
+                <h2 class="center">Proyectos</h2>
                 {{#each posts}}
                 <article class="col s12 m6 l4">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="{{ image }}" alt="">
+                            <img class="activator" src="{{ image }}" alt="post image">
                         </div>
                         <div class="card-content">
-                            <span class="card-title grey-text activator text-darken-4">{{ title }}<i
+                            <span class="card-title activator">{{ title }}<i
                                     class="material-icons right">more_vert</i></span>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">{{ title }}<i class="material-icons right">close</i> </span>
+                            <span class="card-title">{{ title }}<i class="material-icons right">close</i> </span>
                             <p>{{ description }}</p>
                             <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="{{ link }}">Ver</a>
                         </div>
                     </div>
                 </article>
                 {{/each}}
-                
-                {{!-- <div>
-                    <h1 class="center">Art&iacute;culos</h1>
-                </div> --}}
-                {{!-- <article class="col s12 m6 l4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="https://image.freepik.com/vector-gratis/computadora-portatil-icono-isometrico-codigo-programa-desarrollo-software-aplicaciones-programacion-neon-oscuro_39422-971.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text activator text-darken-4">E-commerce API<i
-                                    class="material-icons right">more_vert</i></span>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">E-commerce API<i class="material-icons right">close</i> </span>
-                            <p>API contruida con nodejs usando el framework express</p>
-                            <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="https://github.com/leo-caicedo/e-commerce">Ver</a>
-                        </div>
-                    </div>
-                </article>
-                <article class="col s12 m6 l4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="https://image.freepik.com/vector-gratis/gente-negocios-trabajando-desarrollo-computadoras-portatiles_1262-18907.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text activator text-darken-4">Task app<i
-                                    class="material-icons right">more_vert</i></span>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Task app<i class="material-icons right">close</i> </span>
-                            <p>Aplicacion de tareas con manejo de plantilla usando express.js.</p>
-                            <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="#">Ver</a>
-                        </div>
-                    </div>
-                </article>
-                <article class="col s12 m6 l4">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" height="250px" src="https://image.freepik.com/vector-gratis/ilustracion-concepto-abstracto-descripcion-requisitos-software_335657-3813.jpg" alt="">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title grey-text activator text-darken-4">Social network<i
-                                    class="material-icons right">more_vert</i></span>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Social network<i class="material-icons right">close</i> </span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                            <a class="waves-effect waves-teal btn-flat teal lighten-5 right" href="#">Ver</a>
-                        </div>
-                    </div>
-                </article> --}}
                 </div>
                 </section>
                 </main>
